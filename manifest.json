@@ -1,0 +1,32 @@
+{
+  "name": "BJR Edu",
+  "short_name": "BJR Edu",
+  "description": "A concise and compelling description of your website or web app.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#your_theme_color",
+  "icons": [
+    {
+      "src": "/assets/image/icons/icon-192x192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/image/icons/icon-512x512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/image/icons/icon-256x256.svg",
+      "sizes": "256x256",
+      "type": "image/svg+xml"
+    }
+  ],
+  "scope": "/",
+  "orientation": "any",
+  "lang": "ka-GE",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": []
+}
