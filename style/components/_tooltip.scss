@@ -1,0 +1,40 @@
+.tooltip {
+  --bs-tooltip-zindex: 1080;
+  --bs-tooltip-max-width: 200px;
+  --bs-tooltip-padding-x: 0.5rem;
+  --bs-tooltip-padding-y: 0.25rem;
+  --bs-tooltip-margin: ;
+  --bs-tooltip-font-size: unsent !important;
+  --bs-tooltip-color: var(--bs-body-bg);
+  --bs-tooltip-bg: var(--bs-emphasis-color);
+  --bs-tooltip-border-radius: 999px;
+  --bs-tooltip-opacity: 0.9;
+  --bs-tooltip-arrow-width: 0.8rem;
+  --bs-tooltip-arrow-height: 0.4rem;
+  z-index: var(--bs-tooltip-zindex);
+  display: block;
+  margin: var(--bs-tooltip-margin);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+  text-transform: none;
+  letter-spacing: normal;
+  word-break: normal;
+  white-space: normal;
+  word-spacing: normal;
+  line-break: auto;
+  font-size: var(--bs-tooltip-font-size);
+  word-wrap: break-word;
+  opacity: 0;
+
+  & .tooltip-arrow {
+    display: none;
+  }
+
+  & .tooltip-inner {
+    font-size: 14px;
+  }
+}

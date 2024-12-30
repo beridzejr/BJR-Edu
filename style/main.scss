@@ -1,0 +1,17 @@
+@import 'abstracts/typography';
+@import "abstracts/variables";
+
+@import "base/reset";
+
+@import "layouts/sidebar";
+@import "layouts/body";
+
+@import "components/tooltip";
+
+* {
+  font-family: "Noto Sans Georgian", serif;
+}
+
+body {
+  background-color: var(--body-bg-beige);
+}
